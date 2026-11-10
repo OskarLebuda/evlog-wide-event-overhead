@@ -1,0 +1,13 @@
+{
+  "name": "evlog-wide-event-overhead",
+  "private": true,
+  "type": "module",
+  "description": "Minimal reproduction: per-request cost of an evlog wide event on plain node:http",
+  "scripts": {
+    "bench": "./run.sh node",
+    "bench:bun": "./run.sh bun"
+  },
+  "dependencies": {
+    "evlog": "2.35.1"
+  }
+}
